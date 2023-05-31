@@ -1,0 +1,77 @@
+/* body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+} */
+
+
+.fa-linkedin-in{
+  color: white;
+  padding: 15px;
+  border: 1px solid white;
+  margin: 10px;
+  /* border-radius: 15px,15px; */
+}
+.fa-stack-overflow{
+  color: white;
+  padding: 15px;
+  border: 1px solid white;
+}
+.fa-google-plus-g{
+  color: white;
+  padding: 15px;
+  border: 1px solid white;
+  margin: 10px;
+}
+.fa-facebook-f{
+  color: white;
+  padding: 15px;
+  border: 1px solid white;
+
+}
+
+ul a i:hover{
+  /* box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3); */
+  border-color: blueviolet;
+}
+
+
+.mainh:hover{
+  border-color: blue;
+  box-shadow: -5px 0px 4px blue;
+}
+
+/* .card:hover{
+  border-color: blue;
+  box-shadow: -5px 0px 4px blue;
+} */
+
+.mainf:hover{
+    box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+}
+
+.d-grid{
+  position: relative;
+  
+}
+.d-grid::before{
+  content: " ";
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: brown;
+  transform: translate(-100%);
+
+}
+
+.d-grid:hover:before{
+  transform: translate(0);
+}
